@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-  int n=3;
+  int n;
+  scanf("%d",&n);
   if(n%2==0)
    {
      printf("even");
@@ -10,4 +11,5 @@ int main()
    {
      printf("odd");
    }
+   return 0;
 }
