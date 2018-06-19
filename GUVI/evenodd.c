@@ -3,7 +3,7 @@ int main()
 {
   long int n;
   scanf("%ld",&n);
-  if(n>o && n<=100000)
+  if(n>0 && n<=100000)
   {
     if(n%2==0)
     {
