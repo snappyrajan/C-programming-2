@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  long int n;
+  long int n=3;
   scanf("%ld",&n);
   if(n%2==0)
    {
